@@ -1,4 +1,4 @@
-FROM jamesadevine/codal-toolchains
+FROM jamesadevine/codal-toolchains:updated
 
 ARG AUTH_TOKEN=local
 ENV AUTH_TOKEN ${AUTH_TOKEN}
